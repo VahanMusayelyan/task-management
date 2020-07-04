@@ -1,0 +1,82 @@
+.allcontent{
+    border:2px solid grey;
+    width:800px;
+    margin:30px auto;
+    padding:30px;
+    overflow:auto;
+}
+
+
+.navbar-inverse{
+    margin-bottom: 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.user,.pass{
+    width: 40%;
+    display: inline-block;
+}
+
+.admin,.logout{
+    float: right;
+    display: inline-block; 
+    margin-left: 15px
+}
+
+.fa{
+    
+}
+
+.filterDiv{
+    position: relative;
+    height: 25px;
+    width: 40px;
+    float: right;
+}
+
+table a{
+    display: inline-block;
+    margin-bottom: 10px;
+    position: absolute; 
+    right: 25px;
+}
+
+.top{
+    top: 0px;
+}
+.bottom{
+    bottom: -10px;
+}
+
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.alerttext{
+    width: 15%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+table{
+    margin-top: 20px;
+}
